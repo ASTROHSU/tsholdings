@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap');
-        body { font-family: 'Noto Sans TC', sans-serif; background-color: #f8fafc; }
+        body { font-family: 'Noto Sans TC', sans-serif; background-color: #f8fafc; font-size: 1.0625rem; }
         .print-break { page-break-after: always; }
         @media print {
             .no-print { display: none; }
@@ -43,7 +43,7 @@
         </header>
 
         <!-- Main Content -->
-        <div class="p-8 md:p-12 space-y-12">
+        <div class="p-8 md:p-12 space-y-12 text-lg">
             
             <!-- Bio Section -->
             <section>
@@ -140,45 +140,25 @@
                 </div>
             </section>
 
-            <!-- 合作方案：課程 + 訂閱 -->
+            <!-- 合作方案：一整套 -->
             <section class="border-t border-slate-200 pt-10">
-                <h2 class="text-xl font-bold text-slate-800 border-b-2 border-slate-100 pb-2 mb-4">合作方案</h2>
-                <p class="text-slate-600 mb-3 text-sm">
+                <h2 class="text-2xl font-bold text-slate-800 border-b-2 border-slate-100 pb-2 mb-6">合作方案</h2>
+                <p class="text-slate-600 mb-6">
                     單次講座聽完就過，但產業資訊才是重點。多數人缺乏基礎知識與持續吸收資訊的管道。建議以<strong>一日實戰工作坊</strong>建立共識，再搭配<strong>企業訂閱《區塊勢》、精選週報</strong>形成長期機制。
                 </p>
-                <div class="bg-slate-800 text-white px-4 py-2 rounded-lg mb-6 text-sm flex flex-wrap items-center gap-2">
-                    <span class="text-slate-400">《區塊勢》企業訂戶</span>
-                    <span class="font-semibold">台灣大哥大 · 國泰金控 · 金管會 · 三商電腦</span>
+                <div class="border-2 border-amber-500 bg-amber-50 rounded-xl p-6 mb-8 text-center">
+                    <p class="text-amber-800 font-bold text-sm uppercase tracking-wider mb-2">《區塊勢》企業訂戶</p>
+                    <p class="text-slate-900 text-xl md:text-2xl font-bold">台灣大哥大 · 國泰金控 · 金管會 · 三商電腦</p>
                 </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div class="border-2 border-amber-200 bg-amber-50/50 p-6 rounded-xl">
-                        <h4 class="font-bold text-amber-700 mb-3 flex items-center">
-                            <span class="w-8 h-8 bg-amber-200 text-amber-800 rounded-full flex items-center justify-center text-sm mr-2">A</span>
-                            方案一：單日企業 Web3 實戰工作坊
-                        </h4>
-                        <p class="text-base font-bold text-amber-800 mb-3">單日 12 萬元</p>
-                        <ul class="text-sm text-slate-700 space-y-1.5 list-disc list-inside">
-                            <li>單日實體課程，建立共同語言</li>
-                            <li>錢包操作、鏈上追蹤等實戰演練</li>
-                            <li>內容可依貴單位需求調整</li>
-                        </ul>
-                    </div>
-                    <div class="border-2 border-slate-200 bg-slate-50 p-6 rounded-xl">
-                        <h4 class="font-bold text-slate-800 mb-3 flex items-center">
-                            <span class="w-8 h-8 bg-slate-300 text-slate-700 rounded-full flex items-center justify-center text-sm mr-2">B</span>
-                            方案二：付費訂閱《區塊勢》
-                        </h4>
-                        <p class="text-base font-bold text-slate-800 mb-3">一年 15 萬元，共 100 組名額</p>
-                        <ul class="text-sm text-slate-700 space-y-1.5 list-disc list-inside">
-                            <li>每週深度文章 + Podcast 節目</li>
-                            <li>監管、DeFi、RWA 等關鍵議題追蹤</li>
-                            <li>企業方案（多帳號／團訂），方便團隊共學</li>
-                        </ul>
-                    </div>
+                <div class="border border-slate-200 rounded-xl p-6 bg-slate-50">
+                    <h3 class="font-bold text-slate-800 text-xl mb-4">一整套：單日工作坊 ＋ 企業訂閱《區塊勢》</h3>
+                    <p class="text-slate-700 font-semibold mb-4">單日工作坊 12 萬元 · 企業訂閱一年 15 萬元（共 100 組名額）</p>
+                    <ul class="text-slate-700 space-y-2 list-disc list-inside">
+                        <li>單日實體課程，建立共同語言；動手實作與鏈上追蹤；內容可依貴單位需求調整</li>
+                        <li>企業訂閱：每週深度文章 + Podcast、精選週報；監管、DeFi、RWA 等關鍵議題追蹤；多帳號／團訂，方便團隊共學</li>
+                    </ul>
+                    <p class="mt-4 text-slate-600 font-medium">一天建立共識，之後每週 10 分鐘透過《區塊勢》持續補強。</p>
                 </div>
-                <p class="mt-4 text-slate-600 text-sm font-medium">
-                    ✓ 建議<strong class="text-slate-800">方案 A ＋ 方案 B</strong>：一天建立共識，之後每週 10 分鐘透過《區塊勢》持續補強。
-                </p>
             </section>
 
             <!-- Footer Quote -->
